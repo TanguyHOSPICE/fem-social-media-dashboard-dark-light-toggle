@@ -1,0 +1,12 @@
+//import the util styles
+@use '../util/' as *; // as * means import all the things from util (with a namespace of *)
+
+// Test toggle
+.toggle {
+	&__button {
+		width: rem(16);
+		height: rem(16);
+		border-radius: 50%;
+		background-color: var(--toggle);
+	}
+}

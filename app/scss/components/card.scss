@@ -1,0 +1,7 @@
+//import the util styles
+@use '../util/' as *; // as * means import all the things from util (with a namespace of *)
+
+//For testing into Sass
+.card {
+	padding: rem(20);
+}
